@@ -6,6 +6,7 @@ import {HeaderComponent} from "./header/header.component";
 import { FilmyComponent } from './filmy/filmy.component';
 import {RouterModule, Routes} from "@angular/router";
 import {KsiazkiComponent} from "./ksiazki/ksiazki.component";
+import {Ksiazka} from "./ksiazki/Ksiazka";
 
 const appRoutes: Routes = [
   {path: 'filmy', component: FilmyComponent},
